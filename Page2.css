@@ -1,0 +1,403 @@
+body{
+    background-color:#15110C;
+}
+*{
+    font-family:"trebuchet MS",Helvetica,Arial,sans-serif;
+    color:#ffffff;
+    font-size:14px;
+    margin:0;
+    padding:0;
+    border:0;
+    position:relative;
+    list-style-type;
+}
+}
+
+p{
+    font-size:14px;
+    line-height:20px;
+}
+
+h1{
+    font-size:24px;
+    margin-bottom:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
+h2{
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
+h3{
+    font-size:16px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+
+a{
+    color:#ff9900;
+}
+.in{
+    width:900px;
+    margin:auto;
+}
+
+span{
+    font-size: 20px;
+    color:#ff9900;
+}
+
+#header{
+    background-color:#1E1912;
+}
+
+li{
+    list-style-position:inside;
+}
+
+#header .in {
+     background-image:url(www-d.jpg);
+     padding-left:30px;
+     padding-top:0px;
+     background-repeat: no-repeat;
+}
+
+#header a{
+    display:block;
+    padding-top:30px;
+    padding-bottom:50px;
+    color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:50px;
+    text-decoration:none;
+}
+/*---------------menu------------------*/
+#menu {
+    height:50px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    z-index: 20;
+    
+}
+
+#menu li{
+    height:50px;
+     float:left;
+    display:block;
+    width:150px;
+}
+
+#menu a{
+    display:block;
+    background-color: #ff9900;
+    border-bottom:1px;
+    border-bottom-color: #dd8800;
+    border-top: 1px;
+    border-top-color: #ffbb44;
+    color: #222211;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+}
+#menu a:hover{
+    background-color:#ffbb44; 
+}
+/*-------------------headline-----------------*/
+#headline .in{
+     padding-top:340px;
+     padding-bottom:0px;
+}
+
+#headline{
+    background-image: url(tiger-d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+}
+#headline h1{
+    color:#ff9900;
+    margin-right:340px;
+}
+#headline p{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+     
+}
+#headline strong{
+    color: black;
+    font-size: 14px;
+}
+/*-------------------creation du contenu --------------*/
+#pourquoi{
+     background-color: #e6e4d8;
+    border-bottom: 3px;
+    padding:20px;
+    padding-bottom:30px;
+    box-shadow:-3px 3px 0px #bbbbbb;
+    border-image-outset: -10px;
+     padding-right: 350px;
+    /*-------image palcée a droite--------------*/
+    background-image: url(tiger-portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: right;    
+}
+#headline h2{
+    background-color: orange;
+    padding: 5px;
+    margin-left: -50px;
+}
+/*---------------------partager------------------*/
+#partager li{
+    float: left;
+    width: 260px;
+    height:160px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#partager ol{
+    background-color: aliceblue;
+    list-style-type:none;
+}
+
+#pet{
+    background-color: #e6e4d8;
+    
+}
+#partager #facebook{
+   background-color: #3b5998;
+}
+#partgaer #twitter{
+    background-color: #1783ff;
+}
+#partager #agir a{
+   background-color: #ff5400;
+}
+#partager #shareli{
+}
+
+#partager {
+    height:20px;
+    padding-top: 0px;
+    margin: auto;
+    width: 950px;
+    
+}
+#partager ol a{
+    display: block;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: #ff9900;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    box-shadow:-3px 3px 0px #bbbbbb;
+}
+#partager h2{
+    margin-top: 5px;
+}
+#petition{
+    background-color: bisque;
+}
+
+#shareli{
+      background-color: #d9d4be;
+     margin-top: 0px;
+}
+#agir{
+      background-color: #d9d4be;
+     margin-top: 0px;
+}
+/*-----------------position des numéros-------------*/
+#petition::before{
+    content:"1";
+    display: block;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin:0px;
+    background-color: #ff9900;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    box-shadow:-3px 3px 0px #bbbbbb;
+}
+
+#agir::before{
+    content:"2";
+    display: block;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin:0px;
+    background-color: #ff9900;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    box-shadow:-3px 3px 0px #bbbbbb;
+}
+
+#share::before{
+    content:"3";
+    display: block;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin:0px;
+    background-color: #ff9900;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    box-shadow:-3px 3px 0px #bbbbbb;
+}
+/*----------------footer--------------*/
+ #footer{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#footer li{
+    display: inline;
+    font-size: 12px;
+}
+#footer li::before{
+    content: '|';
+}
+#headline #petit:hover{
+    background-color: #ffbb44;
+}
+#headline #agir3:hover{
+    background-color:#ffbb44; 
+}
+#headline #facebook:hover{
+    background-color:#ffbb44;
+}
+#headline #twitter:hover{
+     background-color:#ffbb44;
+}
+/*---------------ajustement pour le telephone-------------*/
+@media only screen    
+and (min-device-width : 320px)   
+and (max-device-width : 480px) { 
+ .in{
+        width: 100%;
+    }
+    #header .in {
+     background-size: 10%;
+    display: block;
+    margin: 0;
+}
+    #menu{
+        height: auto;
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    #menu li{
+        width: auto;
+        height: 40px;
+        line-height: 40px;
+        float: none;
+    }
+    #header .in{
+   padding-left: 0px;
+    font-size: 26px;
+    padding-top: 20px;
+    }
+    
+    #header span{
+        font-size: 11px;
+    }#headline {
+      background-image: none;
+    }
+    #headline h1{
+        font-size: 20px;
+        margin:20px;
+    }
+    #headline .in{
+        padding: 0px;
+        padding-top:20px;
+    }
+    #headline p{
+        margin: 20px;
+        height: 100px;
+        font-size: 10px;
+    }
+    #pourquoi{
+    background-image:none;
+    background-color: #e6e4d8;
+    background-position: center;
+    border-bottom: 3px;
+    padding:20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    border-image: 10px;
+     
+        
+    }
+    
+    #headline h2{
+        font-size: 14px;
+        margin-left: -20px;
+        margin-right: -20px;
+        text-align: center
+    }
+    #partager{
+        width: 100%;
+        margin: 0px;
+    }
+    #partager li{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+    }
+    #partager ol a{
+        margin-right: 0px;
+    }
+    #footer{
+        width: 100%;
+    }
+    #image{
+        padding-bottom: 30px;
+    }
+    #header a{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+ #footer{
+        padding-top: 30px;
+    }
+    #tigre{
+        margin-top: 50px;
+        background-image: url(tiger-portrait.jpg);
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 300px;
+        margin-left: 20px
+    }
+}
